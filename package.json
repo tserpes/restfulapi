@@ -1,0 +1,21 @@
+{
+  "name": "restfulapi",
+  "version": "1.0.0",
+  "description": "An example of a restful API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "restful",
+    "api",
+    "nodejs"
+  ],
+  "author": "Konstantinos Tserpes",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.0"
+  }
+}
