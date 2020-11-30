@@ -16,7 +16,7 @@ app.get('/', async (req, res)=>{
 	}
 })
  
-app.listen(3000);
+app.listen(80);
 
 function query(q){
 	return new Promise(function(resolve, reject){
